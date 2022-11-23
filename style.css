@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@650&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thaana:wght@150;350;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Thaana", sans-serif;
+  color: white;
+}
+body {
+  background-color: #222222;
+  overflow-x: hidden;
+}
+/* Hero */
+.hero {
+  background-image: url(heroImg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 86vh;
+  width: 100%;
+  text-align: center;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.715);
+  height: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  padding: 25px 3.5rem;
+}
+.logo {
+  width: 134px;
+  height: 35px;
+}
+.signIn {
+  /* border: 2px solid red; */
+  height: 35px;
+  width: 80px;
+  background-color: #e50914;
+  border: none;
+  border-radius: 3px;
+  /* padding: 7px 17px; */
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 350;
+}
+.content {
+  margin-top: 150px;
+}
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  line-height: 4rem;
+}
+
+.content p {
+  font-size: 18px;
+  font-weight: 350;
+  margin-bottom: 15px;
+}
+.content h2 {
+  font-weight: 0;
+  margin-bottom: 20px;
+}
+.btn {
+  display: flex;
+  height: 60px;
+  /* border: 2px solid red; */
+  width: 46%;
+  margin: auto;
+  background-color: white;
+  /* padding: 0; */
+}
+.btn input {
+  width: 70%;
+  /* border: 2px solid green; */
+  height: 100%;
+  /* border: none; */
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  color: black;
+  transition: all 0.1s ease;
+}
+.btn button {
+  height: 100%;
+  width: 30%;
+  border: none;
+  background-color: #e50914;
+  font-size: 23px;
+  transition: all 0.1s ease;
+  font-weight: 350;
+}
+.btn button:hover {
+  background-color: #f40812;
+  cursor: pointer;
+}
+.arrow {
+  border: solid white;
+  border-width: 0 1.5px 1.5px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 3px;
+  transform: rotate(-45deg);
+}
+/* section1 */
+.section1 {
+  display: flex;
+  background-color: black;
+  margin: 7px 0;
+  height: 57vh;
+  padding: 70px 170px;
+  /* border: solid red; */
+}
+.section1 .left {
+  padding-top: 40px;
+  width: 45%;
+  /* border: 2px solid red; */
+}
+h1 {
+  font-size: 47px;
+  margin-bottom: 0.5rem;
+}
+.section1 .left p,
+.section2 .right p {
+  font-size: 1.4rem;
+  font-weight: 350;
+}
+.section1 .right {
+  position: absolute;
+  top: 705px;
+  right: -50px;
+  height: 390px;
+  width: 50%;
+  z-index: 2;
+  /* border: 2px solid red; */
+}
+video {
+  height: 50%;
+  margin: 85px 0 0 75px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+/* section2 */
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  margin: 7px 0;
+  height: 59vh;
+  padding: 70px 170px;
+}
+.section2 .left {
+  width: 50%;
+  padding: 20px 0 0 30px;
+}
+.section2 .left img {
+  width: 60%;
+  height: 105%;
+}
+#img {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -130px;
+  left: -23px;
+  height: 100px;
+  width: 350px;
+  padding: 10px;
+  border: 1.5px solid #575757;
+  border-radius: 0.75em;
+}
+.section2 .left div img {
+  width: 60px;
+  height: 80px;
+  margin-right: 20px;
+}
+.section2 .left h3 {
+  font-size: 15px;
+  width: 130px;
+  /* border: solid red; */
+}
+.section2 .left p {
+  color: #0171eb;
+  font-size: 13px;
+}
+#gif {
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
+    50% no-repeat;
+  background-size: contain;
+  height: 60%;
+  width: 60%;
+  /* border: solid red; */
+  position: relative;
+  left: 30px;
+}
+.section2 .right {
+  padding-top: 30px;
+  width: 50%;
+  margin-left: 40px;
+}
+.section2 .right h1 {
+  margin-top: 20px;
+  font-size: 47px;
+}
+.section2 .right p {
+  font-size: 25px;
+}
+
+/* section3 */
+.section3 {
+  background-color: black;
+  margin: 7px 0;
+  height: 31vh;
+  padding: 50px 170px;
+}
+.section3 h1 {
+  font-size: 47px;
+}
+
+.section3 p {
+  font-size: 25px;
+  font-weight: 350;
+}
+
+/* section4 */
+.section4 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  margin: 7px 0;
+  height: 66vh;
+  padding: 50px 130px;
+}
+.section4 img {
+  margin-left: 0;
+}
+#sec4-text {
+  margin: 90px 0 0 20px;
+}
+#sec4-text h1 {
+  font-size: 47px;
+}
+#sec4-text h3 {
+  font-weight: 350;
+  font-size: 25px;
+}
+
+/* FAQ */
+.faq {
+  background-color: black;
+  margin: 7px 0;
+  height: 930px;
+  padding: 30px 170px;
+}
+.faq h1 {
+  margin-bottom: 40px;
+}
+.faq h1,
+.faq h3 {
+  text-align: center;
+}
+.faq h3 {
+  font-weight: 350;
+  margin: 40px 0 15px 0;
+}
+/* Accordion */
+.accordion {
+  background-color: #303030;
+  width: 73%;
+  margin: auto;
+}
+.accordion input {
+  display: none;
+}
+.accordion__handler {
+  border: 1px solid black;
+  padding: 0 25px;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+}
+.accordion__title {
+  padding-top: 15px;
+  font-weight: 350;
+  font-size: 23px;
+}
+.accordion__icon {
+  font-weight: 150;
+  font-size: 43px;
+  transition: transform 250ms ease-in-out;
+}
+.accordion input:checked ~ .accordion__body {
+  height: auto;
+  padding: 0 10px 10px;
+}
+.accordion input:checked + .accordion__handler .accordion__icon {
+  transform: rotate(45deg);
+}
+.accordion__body {
+  border: 1px solid black;
+  height: 0;
+  overflow: hidden;
+}
+.accordion__body p {
+  font-size: 20px;
+  font-weight: 350;
+  margin: 15px 15px;
+}
+#btn {
+  width: 65%;
+}
+
+/* footer */
+.footer {
+  height: 41vh;
+  width: 100%;
+  background: black;
+  /* margin: 0 auto; */
+  /* border: solid red; */
+  padding: 4rem 20rem;
+}
+
+.footer p {
+  color: #737373;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+.footer a {
+  color: #737373;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.footer p:hover,
+.footer a:hover {
+  text-decoration: underline;
+}
+#nn {
+  color: #737373;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin-top: 25px;
+}
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer li {
+  line-height: 2;
+}
